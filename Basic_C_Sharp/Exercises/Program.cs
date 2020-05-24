@@ -70,26 +70,58 @@ namespace Exercises
             //}
             #endregion
             #region Exercises5
-            Console.WriteLine("Vvedite Amount");
-            var Num = Convert.ToDouble(Console.ReadLine());
-            double Sum = 0;
-            if (Num < 100)
+            //Console.WriteLine("Vvedite Amount");
+            //var Num = Convert.ToDouble(Console.ReadLine());
+            //double Sum = 0;
+            //if (Num < 100)
+            //{
+            //    Sum += Num + Num * 0.05;
+            //}
+            //else
+            //{
+            //    if (Num >= 100 && Num <= 200)
+            //    {
+            //        Sum += Num + Num * 0.07;
+            //    }
+            //    else
+            //    {
+            //        Sum += Num + Num * 0.1;
+            //    }
+            //}
+            //Sum += 15;
+            //Console.WriteLine($"New = {Sum}");
+            #endregion
+            #region Exercises6
+            Console.WriteLine("Vyberite operaciu:");
+            Console.WriteLine("1 - \"+\"");
+            Console.WriteLine("2 - \"-\"");
+            Console.WriteLine("3 - \"*\"");
+            var Num = Convert.ToInt32(Console.ReadLine());
+            string Oper = "";
+            switch(Num)
             {
-                Sum += Num + Num * 0.05;
+                case 1:
+                    {
+                        Oper = "+";
+                        break;
+                    }
+                case 2:
+                    {
+                        Oper = "-";
+                        break;
+                    }
+                case 3:
+                    {
+                        Oper = "*";
+                        break;
+                    }
+                default:
+                    {
+                        Oper = "HZ";
+                        break;
+                    }
             }
-            else
-            {
-                if (Num >= 100 && Num <= 200)
-                {
-                    Sum += Num + Num * 0.07;
-                }
-                else
-                {
-                    Sum += Num + Num * 0.1;
-                }
-            }
-            Sum += 15;
-            Console.WriteLine($"New = {Sum}");
+            Console.WriteLine(Oper);
             #endregion
         }
     }
