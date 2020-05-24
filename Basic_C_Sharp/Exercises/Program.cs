@@ -51,23 +51,45 @@ namespace Exercises
             //}
             #endregion
             #region Exercises4
+            //Console.WriteLine("Vvedite Amount");
+            //var Num = Convert.ToDouble(Console.ReadLine());
+            //if (Num < 100)
+            //{
+            //    Console.WriteLine($"New = {Num+Num*0.05}");
+            //}
+            //else
+            //{
+            //    if (Num >= 100 && Num <= 200)
+            //    {
+            //        Console.WriteLine($"New = {Num + Num * 0.07}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"New = {Num + Num * 0.1}");
+            //    }
+            //}
+            #endregion
+            #region Exercises5
             Console.WriteLine("Vvedite Amount");
             var Num = Convert.ToDouble(Console.ReadLine());
+            double Sum = 0;
             if (Num < 100)
             {
-                Console.WriteLine($"New = {Num+Num*0.05}");
+                Sum += Num + Num * 0.05;
             }
             else
             {
                 if (Num >= 100 && Num <= 200)
                 {
-                    Console.WriteLine($"New = {Num + Num * 0.07}");
+                    Sum += Num + Num * 0.07;
                 }
                 else
                 {
-                    Console.WriteLine($"New = {Num + Num * 0.1}");
+                    Sum += Num + Num * 0.1;
                 }
             }
+            Sum += 15;
+            Console.WriteLine($"New = {Sum}");
             #endregion
         }
     }
