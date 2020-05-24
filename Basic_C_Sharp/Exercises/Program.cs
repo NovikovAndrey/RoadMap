@@ -27,11 +27,23 @@ namespace Exercises
             #endregion
 
             #region Exercises2
+            //Console.WriteLine("Vvedite Number");
+            //var Num = Convert.ToDouble(Console.ReadLine());
+            //if (Num>5 && Num<10)
+            //{
+            //    Console.WriteLine("Число > 5 и < 10");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Неизвестное число");
+            //}
+            #endregion
+            #region Exercises3
             Console.WriteLine("Vvedite Number");
             var Num = Convert.ToDouble(Console.ReadLine());
-            if (Num>5 && Num<10)
+            if (Num == 5 || Num == 10)
             {
-                Console.WriteLine("Число > 5 и < 10");
+                Console.WriteLine("Число == 5 или == 10");
             }
             else
             {
