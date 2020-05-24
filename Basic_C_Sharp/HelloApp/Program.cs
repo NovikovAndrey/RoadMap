@@ -6,7 +6,10 @@ namespace HelloApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Vvedite Name");
+            var Name = Console.ReadLine();
+            Console.WriteLine($"Privet {Name}"); ;
+            Console.ReadKey();
         }
     }
 }
