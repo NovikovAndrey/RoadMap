@@ -92,36 +92,72 @@ namespace Exercises
             //Console.WriteLine($"New = {Sum}");
             #endregion
             #region Exercises6
+            //Console.WriteLine("Vyberite operaciu:");
+            //Console.WriteLine("1 - \"+\"");
+            //Console.WriteLine("2 - \"-\"");
+            //Console.WriteLine("3 - \"*\"");
+            //var Num = Convert.ToInt32(Console.ReadLine());
+            //string Oper = "";
+            //switch(Num)
+            //{
+            //    case 1:
+            //        {
+            //            Oper = "+";
+            //            break;
+            //        }
+            //    case 2:
+            //        {
+            //            Oper = "-";
+            //            break;
+            //        }
+            //    case 3:
+            //        {
+            //            Oper = "*";
+            //            break;
+            //        }
+            //    default:
+            //        {
+            //            Oper = "HZ";
+            //            break;
+            //        }
+            //}
+            //Console.WriteLine(Oper);
+            #endregion
+            #region Exercises7
+            Console.WriteLine("Vvedite Number 1");
+            var Num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Vvedite Number 2");
+            var Num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Vyberite operaciu:");
             Console.WriteLine("1 - \"+\"");
             Console.WriteLine("2 - \"-\"");
             Console.WriteLine("3 - \"*\"");
-            var Num = Convert.ToInt32(Console.ReadLine());
-            string Oper = "";
-            switch(Num)
+            var NumOper = Convert.ToInt32(Console.ReadLine());
+            double? Sum = 0;
+            switch (NumOper)
             {
                 case 1:
                     {
-                        Oper = "+";
+                        Sum += Num1 + Num2;
                         break;
                     }
                 case 2:
                     {
-                        Oper = "-";
+                        Sum += Num1 - Num2;
                         break;
                     }
                 case 3:
                     {
-                        Oper = "*";
+                        Sum += Num1 * Num2;
                         break;
                     }
                 default:
                     {
-                        Oper = "HZ";
+                        Sum = null;
                         break;
                     }
             }
-            Console.WriteLine(Oper);
+            Console.WriteLine(Sum);
             #endregion
         }
     }
