@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAppDetails", "Basic_C_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleRW", "Basic_C_Sharp\ConsoleRW\ConsoleRW.csproj", "{6F68F528-9466-437B-A9CC-0C9DFDF412C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Basic_C_Sharp\Exercises\Exercises.csproj", "{56029B05-9518-46D5-AEC4-D33DF5BC6FED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises", "Basic_C_Sharp\Exercises\Exercises.csproj", "{56029B05-9518-46D5-AEC4-D33DF5BC6FED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortArray", "Basic_C_Sharp\SortArray\SortArray.csproj", "{851703A2-E5EE-412C-A161-7334ED9A133B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{56029B05-9518-46D5-AEC4-D33DF5BC6FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56029B05-9518-46D5-AEC4-D33DF5BC6FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56029B05-9518-46D5-AEC4-D33DF5BC6FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851703A2-E5EE-412C-A161-7334ED9A133B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851703A2-E5EE-412C-A161-7334ED9A133B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851703A2-E5EE-412C-A161-7334ED9A133B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851703A2-E5EE-412C-A161-7334ED9A133B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
